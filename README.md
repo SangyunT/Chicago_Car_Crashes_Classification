@@ -32,7 +32,7 @@ Afterwards, we look at several models to investigate important factors when pred
 
 5. Multinomial Logistic Regression (our final model)
 
-We evaluate the **recall** of these models as we care about the false negative. We decide that our final model is the **multinomial logistic regression** model, because it offers not only important factors but also coefficients for interpretation. The binomial models have important factors for having injuries or no injuries from the car crashes. On the other than, the multinomial models look for the severity of resulting injuries and important determinants. We conclude that one of the most influencial factor for more several injuries such as fatal and incapacitating injuries is the **lighting condition**, especially dark roads with dim lighting when it is raining. More detailed information on model evaluations can be found in the [Jupyter notebook](./Chicago_Car_Crashes.ipynb) and the appendix of our [presentation](./presentation.pdf).
+We evaluate the **recall** of these models as we care about the false negative. We decide that our final model is the **multinomial logistic regression** model, because it offers not only important factors but also coefficients for interpretation. The binomial models have important factors for having injuries or no injuries from the car crashes. On the other than, the multinomial models look for the severity of resulting injuries and important determinants. We conclude that one of the most influencial factor for more several injuries such as fatal and incapacitating injuries is the **lighting condition**, especially dark roads with dim lighting when it is raining. More detailed information on model evaluations can be found in the [Jupyter notebook](./index.ipynb) and the appendix of our [presentation](./presentation.pdf).
 
 ## Conclusions
 
@@ -44,7 +44,7 @@ This project ultimately aims to provide recommendations to Chicago's first respo
 
 - **Optimize personnel being dispatched** especially to these more crash-prone areas.
 
-Please refer to the [Jupyter notebook](./Chicago_Car_Crashes.ipynb) for additional EDAs and models, and the [presentation](./presentation.pdf) for the final run down of our findings.
+Please refer to the [Jupyter notebook](./index.ipynb) for additional EDAs and models, and the [presentation](./presentation.pdf) for the final run down of our findings.
 
 If you have any questions, please contact our team:
 
@@ -62,10 +62,10 @@ Sangyun (Yun) Thom (GitHub Lead): [sangyun.thom@gmail.com](mailto:sangyun.thom@g
 
 ├── crashes.csv.zip
 
-├── Chicago_Car_Crashes.ipynb
+├── index.ipynb
 
-├── Notebook.pdf
+├── notebook.pdf
 
-├── Presentation.pdf
+├── presentation.pdf
 
 ├── README.md
