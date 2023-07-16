@@ -16,7 +16,11 @@ The car crashes data for this project is from [Chicago Data Portal](https://data
 
 We apply some filters to focus on a subset of the dataset gathered for the purpose of this project. First, we decide to only retrieve data from car crashes that occurred during **rainy weather condition**. Also, the main categories of data we decide to focus on are the different **lighting condition**, **crash hour**, **crash day of week**, and **crash month**. It is important to note that the given dataset have some limitations, such as some degree of reporting discrepencies and subjectivity during data acquiring process.
 
-We complete several exploratory data analyses including **injury severity by month** and **number of car crashes by lighting condition**. Afterwards, we look at several models to investigate important factors when predicting injuries resulting from car crashes during rain. Here are the models we explore:
+
+We complete several exploratory data analyses including **injury severity by month** and **number of car crashes by lighting condition**.![image](./images/crash_month_injury.png)
+![image](./images/lighting_injury.png) 
+
+Afterwards, we look at several models to investigate important factors when predicting injuries resulting from car crashes during rain. Here are the models we explore:
 
 1. Baseline model (Dummy Classifer)
 
@@ -28,15 +32,19 @@ We complete several exploratory data analyses including **injury severity by mon
 
 5. Multinomial Logistic Regression (our final model)
 
-
-
-
+We evaluate the **recall** of these models as we care about the false negative. We decide that our final model is the **multinomial logistic regression** model, because it offers not only important factors but also coefficients for interpretation. The binomial models have important factors for having injuries or no injuries from the car crashes. On the other than, the multinomial models look for the severity of resulting injuries and important determinants. We conclude that one of the most influencial factor for more several injuries such as fatal and incapacitating injuries is the **lighting condition**, especially dark roads with dim lighting when it is raining. More detailed information on model evaluations can be found in the [Jupyter notebook](./Chicago_Car_Crashes.ipynb) and the appendix of our [presentation](./presentation.pdf).
 
 ## Conclusions
 
+This project ultimately aims to provide recommendations to Chicago's first responders to consider when responding car crashes during rain.
 
+- **Install safety measures** to poorly lit areas, and these measures can include traffic lights and runble strips.
 
-Please refer to the [Jupyter notebook](./FILE_PATH) for additional EDAs and models, and the [presentation](./FILE_PATH) for the final run down of our findings.
+- **Proactive weather monitoring** focusing on these areas.
+
+- **Optimize personnel being dispatched** especially to these more crash-prone areas.
+
+Please refer to the [Jupyter notebook](./Chicago_Car_Crashes.ipynb) for additional EDAs and models, and the [presentation](./presentation.pdf) for the final run down of our findings.
 
 If you have any questions, please contact our team:
 
