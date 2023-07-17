@@ -44,7 +44,7 @@ This project ultimately aims to provide recommendations to Chicago's first respo
 
 - **Optimize personnel being dispatched** especially to these more crash-prone areas.
 
-Please refer to the [Jupyter notebook](./index.ipynb) for additional EDAs and models, and the [presentation](./presentation.pdf) for the final run down of our findings.
+Please refer to the [Jupyter notebook](./index.ipynb) for additional EDAs and models, and the [presentation deck](./presentation.pdf) and [recording](https://youtu.be/Jg-9VN0JcF8) for the final run down of our findings.
 
 If you have any questions, please contact our team:
 
